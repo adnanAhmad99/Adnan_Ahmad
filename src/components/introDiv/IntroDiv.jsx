@@ -15,7 +15,7 @@ const IntroDiv = () => {
         </p>
         <div className="d-flex intro-pic">
           <div>
-            <img src="images/myPic.jpeg" alt="my photo" />
+            <img src="/images/myPic.jpeg" alt="my photo" />
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@
   "name": "adnanprotfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://adnanAhmad99.github.io/adnanAhmad",
+  "homepage": "https://adnanAhmad99.github.io/Adnan_Ahmad/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
