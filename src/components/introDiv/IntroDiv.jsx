@@ -1,3 +1,4 @@
+import { URLAPPEND } from "../../data/globalData";
 import "./introDiv.css";
 
 const IntroDiv = () => {
@@ -15,7 +16,7 @@ const IntroDiv = () => {
         </p>
         <div className="d-flex intro-pic">
           <div>
-            <img src="/images/myPic.jpeg" alt="my photo" />
+            <img src={`${URLAPPEND}/images/myPic.jpeg`} alt="my photo" />
           </div>
         </div>
       </div>

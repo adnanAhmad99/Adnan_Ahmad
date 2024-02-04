@@ -1,3 +1,4 @@
+import { URLAPPEND } from "../../data/globalData";
 import "./mainUpperDiv.css";
 
 const MainUpperDiv = () => {
@@ -8,7 +9,7 @@ const MainUpperDiv = () => {
   return (
     <article className="d-flex upper-main-div" id="home">
       <div className="main-image d-flex">
-        <img src="/images/mainPic.jpg" alt="my photo" />
+        <img src={`${URLAPPEND}/images/mainPic.jpg`} alt="my photo" />
       </div>
       <div className="d-flex main-intro">
         <small>Hello, Thank you for visiting </small>
