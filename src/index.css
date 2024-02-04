@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --current-color: #1d1d1d;
+  --current-color-opposite: #fff;
+  --current-backgroundColor: #fff;
+  --current-backgroundColor-opposite: #1d1d1d;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+li,
+span {
+  cursor: default;
+}
+body {
+  background-color: var(--current-backgroundColor);
+  color: var(--current-color);
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-opposite {
+  background-color: var(--current-backgroundColor-opposite);
+  color: var(--current-color-opposite);
+}
+
+.top-h {
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.bold {
+  font-weight: bold;
+}
+.under-line {
+  border-bottom: 2px solid var(--current-backgroundColor-opposite);
+}

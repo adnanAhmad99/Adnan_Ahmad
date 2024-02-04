@@ -1,0 +1,20 @@
+.contact-info-div > * {
+  padding: 5px 0px;
+}
+
+.contact-info-div > ul {
+  padding-left: 10%;
+}
+.contact-list-ul > li > a,
+.gmail-li > span {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+.contact-list-ul > li > a:hover,
+.contact-list-ul > li > a:active,
+.gmail-li > span:hover,
+.gmail-li > span:active {
+  border-bottom: 1px solid black;
+  text-decoration: none;
+  cursor: pointer;
+}

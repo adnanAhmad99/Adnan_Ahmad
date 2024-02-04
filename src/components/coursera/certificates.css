@@ -1,0 +1,18 @@
+.certificates > ul {
+  padding: 0px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.certificates a {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  padding: 2px;
+}
+.certificates a:hover,
+.certificates a:active {
+  border-bottom: 1px solid var(--current-backgroundColor-opposite);
+}
+.certificates > p {
+  margin: 10px 0px;
+}

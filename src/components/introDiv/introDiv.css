@@ -1,0 +1,33 @@
+.sub-intro {
+  padding-top: 10px;
+}
+.sub-intro > * {
+  width: 60%;
+}
+.experience-para-div {
+  padding: 15px 0px;
+}
+.experience-para-div > p {
+  width: 90%;
+  text-align: center;
+}
+.intro-info {
+  margin: 10px;
+}
+.intro-pic > div {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid #1d1d1d;
+  overflow: hidden;
+}
+.intro-pic > div > img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 450px) {
+  .sub-intro {
+    flex-direction: column-reverse;
+  }
+}

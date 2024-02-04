@@ -1,0 +1,79 @@
+.upper-main-div {
+  height: 400px;
+  flex-direction: row-reverse;
+}
+.upper-main-div > div {
+  width: 60%;
+}
+.main-intro {
+  flex-direction: column;
+  padding: 10px 5px;
+}
+.main-intro > * {
+  margin-bottom: 3px;
+}
+.name-span {
+  font-size: 30px;
+  font-weight: bold;
+}
+.main-image {
+  width: 100%;
+  height: 100%;
+  padding: 10px 0px;
+  /* background-color: var(--current-backgroundColor-opposite); */
+}
+.main-image > img {
+  width: 350px;
+  height: 350px;
+}
+.upper-div-buttons {
+  padding: 5px;
+}
+.contact-button,
+.cv-button {
+  cursor: pointer;
+}
+.contact-button {
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid var(--current-backgroundColor-opposite);
+}
+.contact-button:hover,
+.contact-button:active {
+  border: 1px solid #1d1d1d;
+  color: white;
+  background-color: #1d1d1d;
+}
+
+.cv-button {
+  border: none;
+  margin-right: 5px;
+}
+.cv-button > a {
+  padding: 5px;
+  text-decoration: none;
+  border: 1px solid var(--current-backgroundColor-opposite);
+}
+.cv-button > a > svg {
+  width: 15px;
+  height: 15px;
+  stroke: transparent;
+  fill: wheat;
+}
+.cv-button:hover > a {
+  padding: 8px;
+}
+
+@media (max-width: 600px) {
+  .upper-main-div {
+    flex-direction: column;
+    height: auto;
+  }
+  .main-image > img {
+    width: 100%;
+    height: 100%;
+  }
+  .name-span {
+    display: block;
+  }
+}

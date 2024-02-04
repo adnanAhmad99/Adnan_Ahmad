@@ -1,0 +1,32 @@
+.projects {
+  margin: 10px 0px;
+}
+.projects-main-div {
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 10px 0px;
+  align-items: baseline !important;
+}
+.project-div {
+  max-width: 600px;
+  flex-direction: column;
+  padding: 10px;
+  border: 2px solid var(--current-backgroundColor-opposite);
+}
+.heading-span {
+  padding: 2px 5px;
+  border-bottom: 2px solid var(--current-backgroundColor-opposite);
+  margin-bottom: 3px;
+}
+.project-intro {
+  padding: 10px 0px;
+}
+.skills-used {
+  gap: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.skills-used > span {
+  padding: 5px;
+  border: 1px solid var(--current-backgroundColor-opposite);
+}
