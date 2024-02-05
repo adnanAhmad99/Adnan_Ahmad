@@ -61,7 +61,9 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      <p>sentimental analysis flask app and many more...</p>
+      <p className="projects-ending-para">
+        sentimental analysis flask app and many more...
+      </p>
     </article>
   );
 };

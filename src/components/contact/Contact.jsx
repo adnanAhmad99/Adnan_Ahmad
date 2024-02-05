@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./contact.css";
 
 const Contact = () => {
@@ -12,14 +12,10 @@ const Contact = () => {
     }, 500);
   };
 
-  useEffect(() => {
-    console.log("rendring");
-  });
-
   return (
-    <div className="contact" id="contact">
+    <div className="contact " id="contact">
       <h2 className="color-opposite top-h">Contact</h2>
-      <div className="contact-info-div">
+      <div className="contact-info-div padding-left-right">
         <p>
           Thank you for exploring my portfolio! If you have any inquiries,
           opportunities, or would simply like to connect, feel free to reach
@@ -31,7 +27,7 @@ const Contact = () => {
         <ul className="contact-list-ul">
           <li className="gmail-li">
             Email:{" "}
-            <span onClick={handleCopy} title={copyStatus}>
+            <span onClick={handleCopy} title="copy">
               0adnanahmad99@gmail.com
             </span>{" "}
             {copyStatus === "Copied" ? "copied" : ""}

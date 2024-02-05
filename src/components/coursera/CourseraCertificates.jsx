@@ -37,9 +37,9 @@ const COURSERACERTIFICATES = [
 
 const CourseraCertificates = () => {
   return (
-    <article className="certificates">
+    <article className="certificates " id="certificates">
       <h2 className="color-opposite top-h">Certificates</h2>
-      <p>
+      <p className="padding-left-right">
         These certificates are part of{" "}
         <a
           href="https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer"
@@ -52,7 +52,7 @@ const CourseraCertificates = () => {
         kubernetes,openshift and microservices.
       </p>
       <p className="bold under-line">Links:</p>
-      <ul className="d-flex">
+      <ul className="d-flex ">
         {COURSERACERTIFICATES.map((course, i) => (
           <li key={`${i}${course.courseName}`}>
             <a href={course.link} target="_blank">

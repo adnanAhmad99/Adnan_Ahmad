@@ -3,9 +3,9 @@ import "./introDiv.css";
 
 const IntroDiv = () => {
   return (
-    <article className="intro" id="about">
+    <article className="intro " id="about">
       <h2 className="color-opposite top-h">About Me</h2>
-      <div className="d-flex sub-intro">
+      <div className="d-flex sub-intro padding-left-right">
         <p className="intro-info">
           Hello there! I'm Adnan Ahmad, a passionate learner with a knack for
           adapting to diverse working environments. My strength lies in

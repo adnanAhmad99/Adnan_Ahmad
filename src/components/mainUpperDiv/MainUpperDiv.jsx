@@ -7,7 +7,7 @@ const MainUpperDiv = () => {
     selectedId?.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <article className="d-flex upper-main-div" id="home">
+    <article className="d-flex upper-main-div padding-left-right" id="home">
       <div className="main-image d-flex">
         <img src={`${URLAPPEND}/images/mainPic.jpg`} alt="my photo" />
       </div>

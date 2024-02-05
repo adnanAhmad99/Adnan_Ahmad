@@ -64,7 +64,7 @@
   padding: 8px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .upper-main-div {
     flex-direction: column;
     height: auto;
@@ -75,5 +75,10 @@
   }
   .name-span {
     display: block;
+  }
+}
+@media (max-width: 421px) {
+  .cv-button {
+    margin-bottom: 10px;
   }
 }

@@ -37,6 +37,8 @@ body {
 .top-h {
   text-align: center;
   padding: 15px 0px;
+  border-bottom: 3px solid goldenrod;
+  border-top: 3px solid goldenrod;
 }
 
 .bold {
@@ -44,4 +46,8 @@ body {
 }
 .under-line {
   border-bottom: 2px solid var(--current-backgroundColor-opposite);
+}
+.padding-left-right {
+  padding-left: 10px;
+  padding-right: 10px;
 }
