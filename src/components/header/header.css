@@ -34,7 +34,7 @@ header {
   font-weight: bold;
 }
 .links-button:hover {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid goldenrod;
 }
 
 @media (max-width: 450px) {

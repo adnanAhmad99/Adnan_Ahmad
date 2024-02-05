@@ -11,7 +11,9 @@ const Navbar = () => {
     <ul className="ul-navlinks">
       {LINKSARRAY.map((element, i) => (
         <li key={`${i}${element}`}>
-          <button onClick={() => handleLink(element)}>{element}</button>
+          <button className="links-button" onClick={() => handleLink(element)}>
+            {element}
+          </button>
         </li>
       ))}
     </ul>

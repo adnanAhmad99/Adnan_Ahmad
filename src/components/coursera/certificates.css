@@ -5,9 +5,10 @@
   gap: 10px;
 }
 .certificates a {
-  color: rgb(255, 0, 0);
+  color: rgb(16, 158, 1);
   text-decoration: none;
   padding: 2px;
+  font-weight: bold;
 }
 .certificates a:hover,
 .certificates a:active {

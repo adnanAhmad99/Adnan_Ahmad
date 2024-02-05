@@ -7,8 +7,9 @@
 }
 .contact-list-ul > li > a,
 .gmail-li > span {
-  color: rgb(255, 0, 0);
+  color: rgb(16, 158, 1);
   text-decoration: none;
+  font-weight: bold;
 }
 .contact-list-ul > li > a:hover,
 .contact-list-ul > li > a:active,
