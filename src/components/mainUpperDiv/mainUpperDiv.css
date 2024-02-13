@@ -8,6 +8,7 @@
 .main-intro {
   flex-direction: column;
   padding: 10px 5px;
+  font-size: 1.2em;
 }
 .main-intro > * {
   margin-bottom: 3px;
@@ -40,17 +41,15 @@
 }
 .contact-button:hover,
 .contact-button:active {
-  border: 1px solid #1d1d1d;
-  color: white;
-  background-color: #1d1d1d;
+  outline: 3px solid var(--current-backgroundColor-opposite);
 }
 
 .cv-button {
   border: none;
-  margin-right: 5px;
+  margin-right: 7px;
 }
 .cv-button > a {
-  padding: 5px;
+  padding: 6px;
   text-decoration: none;
   border: 1px solid var(--current-backgroundColor-opposite);
 }
@@ -58,10 +57,10 @@
   width: 15px;
   height: 15px;
   stroke: transparent;
-  fill: wheat;
+  fill: #fff;
 }
-.cv-button:hover > a {
-  padding: 8px;
+.cv-button:hover {
+  outline: 3px solid var(--current-backgroundColor-opposite);
 }
 
 @media (max-width: 650px) {

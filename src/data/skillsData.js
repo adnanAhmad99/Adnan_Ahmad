@@ -16,10 +16,10 @@ export const FRONTENDEVELOPMENT = [
 export const BACKENDDEVELOPMENT = [
   { name: "Nodejs and Express", level: "Experienced" },
   { name: "MongoDb with Mongoose", level: "Experienced" },
+  { name: ".Net Core Mvc with EF Core", level: "Intermediate" },
   { name: "Sql", level: "Intermediate" },
   { name: "Flask", level: "Basic" },
   { name: "Django", level: "Basic" },
-  { name: ".Net Core", level: "Basic" },
 ];
 export const DEVOPS = [
   { name: "Git and Github", level: "Experienced" },

@@ -51,7 +51,7 @@ const CourseraCertificates = () => {
         platform. I already completed below certificates and currently learning
         kubernetes,openshift and microservices.
       </p>
-      <p className="bold under-line">Links:</p>
+      <p className="bold under-line p-link">Links:</p>
       <ul className="d-flex ">
         {COURSERACERTIFICATES.map((course, i) => (
           <li key={`${i}${course.courseName}`}>

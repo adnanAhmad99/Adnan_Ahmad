@@ -1,13 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Protest+Strike&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 :root {
-  --current-color: #1d1d1d;
+  --current-color: #fff;
+  --current-color-opposite: #fff;
+  --current-backgroundColor: #411212;
+  --current-backgroundColor-opposite: #8d1e1e;
+  /* --current-color: #1d1d1d;
   --current-color-opposite: #fff;
   --current-backgroundColor: #fff;
-  --current-backgroundColor-opposite: #1d1d1d;
+  --current-backgroundColor-opposite: #1d1d1d; */
 }
 p,
 h1,
@@ -21,6 +27,8 @@ span {
 body {
   background-color: var(--current-backgroundColor);
   color: var(--current-color);
+  font-family: "Lato", sans-serif;
+  font-style: normal;
 }
 
 .d-flex {

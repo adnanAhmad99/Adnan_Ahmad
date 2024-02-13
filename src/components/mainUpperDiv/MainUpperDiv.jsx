@@ -27,7 +27,10 @@ const MainUpperDiv = () => {
               &nbsp; Download my Cv
             </a>
           </button>
-          <button className="contact-button" onClick={handleContactButton}>
+          <button
+            className="contact-button color-opposite"
+            onClick={handleContactButton}
+          >
             Contact me
           </button>
         </div>
